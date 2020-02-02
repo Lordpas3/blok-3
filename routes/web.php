@@ -11,6 +11,30 @@
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+
+Route::get('/beroepsbeeld', function() {
+    return view('beroepsbeeld');
+});
+
+Route::get('/dashboard', function() {
+    return view('dashboard');
+});
+
+Route::get('/home', function() {
+    return view('home');
+});
+
+Route::get('/motivatie', function() {
+    return view('motivatie');
+});
+
+Route::get('/profile', function() {
+    return view('profile');
 });
