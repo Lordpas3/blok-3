@@ -38,3 +38,5 @@ Route::get('/motivatie', function() {
 Route::get('/profile', function() {
     return view('profile');
 });
+
+// fuck
