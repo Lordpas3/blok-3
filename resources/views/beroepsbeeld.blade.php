@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout2')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beroepsbeeld</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-
-<body>
-<!-- header start -->
-<div style="margin-left: -50px; margin-top: -0px; margin-right: -8px" class="topnav header">
-    <a href="/home">Home</a>
-    <a href="/profile">Profiel</a>
-    <a href="/dashboard">Dashboard</a>
-    <a href="/motivatie">Motivatie</a>
-    <a class="active" href="/beroepsbeeld">Beroepsbeeld</a>
-</div>
-<!-- header end -->
+@section('title')
 <h1>Beroepsbeeld</h1>
+<span class="byline">Mauris vulputate dolor sit amet nibh</span>
+@endsection
+
+@section ('content')
+
 <p style="margin-right : 45%;">Richting het einde van het eerste blok zijn we met de klas op stap gegaan naar het
     HBO-I event in Utrecht. Hier hebben we van alles gezien en een beetje kennis kunnen maken met de bedrijven en
     het bedrijfsleven. Voor ons was dit allemaal nog niet echt relevant, aangezien ze studenten zochten die
@@ -72,6 +59,4 @@
 <img width="40%" height="40%" class="beroepsPlaatjes" style='margin: 0.5%;' src="/downloads/foto5.jpg" alt="Plaatje">
 <img width="40%" height="40%" class="beroepsPlaatjes" style='margin: 0.5%;' src="/downloads/foto6.jpg" alt="Plaatje">
 
-</body>
-
-</html>
+@endsection

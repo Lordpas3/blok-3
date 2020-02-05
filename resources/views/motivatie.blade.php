@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout2')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Motivatie</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
+@section('title')
+    <h1>Motivatie opdracht</h1>
+    <span class="byline">Mauris vulputate dolor sit amet nibh</span>
+@endsection
 
-<body>
-<!-- header start -->
-<div style="margin-left: -50px; margin-top: -0px; margin-right: -8px" class="topnav header">
-    <a href="/home">Home</a>
-    <a href="/profile">Profiel</a>
-    <a href="/dashboard">Dashboard</a>
-    <a class="active" href="/motivatie">Motivatie</a>
-    <a href="/beroepsbeeld">Beroepsbeeld</a>
-</div>
-<!-- header end -->
+@section ('content')
 
-<h1>Motivatie opdracht</h1>
 <div class="motivatie">
     <h2>Theorie</h2>
     <p>Wat is nou eigenlijk motivatie? Volgens Leren.nl is motivatie het gevoel dat je aanzet tot het beginnen én
@@ -156,6 +142,4 @@
     <a target=_blank href="/downloads/feedback.pdf">feedback formulieren</a>
 </div>
 
-</body>
-
-</html>
+@endsection

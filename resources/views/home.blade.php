@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html>
+@extends('layout2')
+@section('header')
+    <div id="header-featured">
+        <div id="banner-wrapper">
+            <div id="banner" class="container">
+                <h2>Maecenas luctus lectus</h2>
+                <p>This is <strong>SimpleWork</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+                <a href="#" class="button">Etiam posuere</a> </div>
+        </div>
+    </div>
+@endsection
 
-<head>
-  <title>Welcome to my website :)</title>
-  <link rel="stylesheet" href="/style.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
+@section('title')
+    <h1>Waarom HBO-ICT?</h1>
+    <span class="byline">Mauris vulputate dolor sit amet nibh</span>
+@endsection
 
-<body>
-  <!-- header start -->
-  <div style="margin-left: -50px; margin-top: -0px; margin-right: -8px" class="topnav header">
-      <a class="active" href="/home">Home</a>
-      <a href="/profile">Profiel</a>
-      <a href="/dashboard">Dashboard</a>
-      <a href="/motivatie">Motivatie</a>
-      <a href="/beroepsbeeld">Beroepsbeeld</a>
-  </div>
-  <!-- header end -->
+@section ('content')
 
-
-  <h1>Waarom HBO-ICT?</h1>
   <div class="box">
     <div class="index">
       <p>Waarom op de HZ?</p>
@@ -49,7 +44,4 @@
         studie te volgen.</p>
     </div>
   </div>
-
-</body>
-
-</html>
+@endsection

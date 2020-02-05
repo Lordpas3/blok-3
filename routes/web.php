@@ -27,10 +27,6 @@ Route::get('/dashboard', function() {
     return view('dashboard');
 });
 
-Route::get('/home', function() {
-    return view('home');
-});
-
 Route::get('/motivatie', function() {
     return view('motivatie');
 });

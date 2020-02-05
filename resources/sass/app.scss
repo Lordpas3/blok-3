@@ -1,1 +1,8 @@
 //
+$primary : blue;
+$primaryFont : 20px;
+
+.test {
+    color: $primary;
+    font-size: $primaryFont;
+}
