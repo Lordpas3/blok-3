@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,9 +24,16 @@ Route::get('/beroepsbeeld', function() {
     return view('beroepsbeeld');
 });
 
-Route::get('/dashboard', function() {
-    return view('dashboard');
-});
+//Route::get('/dashboard', function() {
+//    return view('dashboard');
+//});
+
+Route::get('/articles', 'ArticlesController@index');
+Route::get('/articles/{article}', 'ArticlesController@show');
+Route::get('/articles/{article}/edit', 'ArticlesController@edit');
+
+
+Route::get('/dashboard', 'DashboardController@show');
 
 Route::get('/motivatie', function() {
     return view('motivatie');
