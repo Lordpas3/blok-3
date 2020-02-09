@@ -19,7 +19,7 @@ Released   : 20140225
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet"/>
     <link href="/default.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="/fonts.css" rel="stylesheet" type="text/css" media="all"/>
-
+    @yield('head')
     <!--[if IE 6]>
     <link href="default_ie6.css" rel="stylesheet" type="text/css"/><![endif]-->
 
@@ -28,7 +28,7 @@ Released   : 20140225
 <div id="header-wrapper">
     <div id="header" class="container">
         <div id="logo">
-            <h1><a href="/home">Pascal van der Maden</a></h1>
+            <h1><a href="/">Pascal van der Maden</a></h1>
         </div>
         <div id="menu">
             <ul>
