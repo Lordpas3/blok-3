@@ -41,8 +41,7 @@ Released   : 20140225
                 <li class="{{Request::is('motivatie') ? 'current_page_item' : ''}}"><a href="/motivatie" accesskey="4"
                                                                                        title="">Motivatie</a></li>
                 <li class="{{Request::is('beroepsbeeld') ? 'current_page_item' : ''}}"><a href="/beroepsbeeld"
-                                                                                          accesskey="5" title="">Beroepsbeeld</a>
-                </li>
+                                                                                          accesskey="5" title="">Beroepsbeeld</a></li>
                 <li class="{{Request::is('articles') ? 'current_page_item' : ''}}"><a href="/articles" accesskey="6"
                                                                                       title="">Articles</a></li>
             </ul>
