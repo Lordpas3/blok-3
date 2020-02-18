@@ -29,26 +29,30 @@
         </div>
     </div>
     <div>
-        <table>
+        <table style="border: 1px solid black;">
             <tr>
                 <th>Cursus</th>
+                <th>Ec</th>
                 <th>Toets</th>
                 <th>Weging</th>
-                <th>EC</th>
                 <th>Cijfer</th>
             </tr>
 
 
-            @foreach ($grades as $grade)
-                {{--            @dump($grade->subject)--}}
+            @foreach($courses as $course)
+                {{$rowspan = count($course->assignments)}}
+
+                    @foreach($course->assignments as $assignment)
                 <tr>
-                    <td>{{$grade->subject}}</td>
-                    <td>{{$grade->test}}</td>
-                    <td>{{$grade->weight}}</td>
-                    <td>{{$grade->ec}}</td>
-                    <td>{{$grade->grade}}</td>
-                </tr>
-            @endforeach
+                    <td rowspan="{{$rowspan}}" style="border: 1px solid black;">{{$course->name}}</td>
+                    <td rowspan="{{$rowspan}}" style="border: 1px solid black;">{{$course->ecs}}</td>
+
+                    <td style="border: 1px solid black;">{{$assignment->name}}</td>
+                    <td style="border: 1px solid black;">{{$assignment->weight}}</td>
+                    <td style="border: 1px solid black;">{{$assignment->grade}}</td>
+
+                    @endforeach
+@endforeach
         </table>
     </div>
 @endsection

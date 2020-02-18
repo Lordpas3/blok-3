@@ -37,6 +37,12 @@ Route::put('/articles/{article}', 'ArticlesController@update')->name('articles.u
 
 
 Route::get('/dashboard', 'DashboardController@show');
+//Route::get('/dashboard', function() {
+//    return view('dashboard', [
+//        'assignments' => App\Assignment::all()
+//    ]);
+//});
+
 
 Route::get('/motivatie', function() {
     return view('motivatie');
