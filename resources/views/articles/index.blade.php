@@ -2,7 +2,7 @@
 
 @section('title')
     <h1>Articles</h1>
-    <span class="byline">Hier staan articles vanuit een database</span>
+{{--    <span class="byline">Hier staan articles vanuit een database</span>--}}
 @endsection
 @section('content')
     @foreach( $articles as $article )

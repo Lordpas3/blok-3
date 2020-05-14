@@ -2,7 +2,7 @@
 
 @section('title')
     <h1>Motivatie opdracht</h1>
-    <span class="byline">Mauris vulputate dolor sit amet nibh</span>
+{{--    <span class="byline">Mauris vulputate dolor sit amet nibh</span>--}}
 @endsection
 
 @section ('content')

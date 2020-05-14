@@ -28,7 +28,7 @@ Released   : 20140225
 <div id="header-wrapper">
     <div id="header" class="container">
         <div id="logo">
-            <h1><a href="/">Pascal van der Maden</a></h1>
+            <h1><a style="font-size: 30px" href="/">Pascal van der Maden</a></h1>
         </div>
         <div id="menu">
             <ul>
@@ -44,6 +44,8 @@ Released   : 20140225
                                                                                           accesskey="5" title="">Beroepsbeeld</a></li>
                 <li class="{{Request::is('articles') ? 'current_page_item' : ''}}"><a href="/articles" accesskey="6"
                                                                                       title="">Articles</a></li>
+                <li class="{{Request::is('contact') ? 'current_page_item' : ''}}"><a href="/contact" accesskey="7"
+                                                                                      title="">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -62,9 +64,12 @@ Released   : 20140225
             <ul class="style1">
                     <li class="first">
                         <h3>
-                            temp
+                            Hier komen nog linkjes
                         </h3>
-                        <p><a href="#">temp</a></p>
+                        <p><a href="#">link</a></p>
+                        <p><a href="#">link</a></p>
+                        <p><a href="#">link</a></p>
+                        <p><a href="#">link</a></p>
                     </li>
             </ul>
             <div id="stwo-col">
